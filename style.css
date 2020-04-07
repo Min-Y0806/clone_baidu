@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  float: right;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu ul li a button {
+  background-color: #1699e6;
+  color: #fff;
+  border: 1px solid #1699e6;
+}
+
+.menu ul li a button:hover {
+  background-color: darkblue;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .title a img {
+  width: 300px;
+  left: 50%;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main .search input {
+  width: 520px;
+  height: 30px;
+  border: 0.7px solid gray;
+  padding: 3px;
+  font-size: 16px;
+}
+
+main .search .primary-btn {
+  padding: 9px;
+  background-color: #1699e6;
+  color: #fff;
+  border: 1px solid #1699e6;
+  cursor: pointer;
+}
+
+main .search .primary-btn:hover {
+  background-color: darkblue;
+}
+/*# sourceMappingURL=style.css.map */
